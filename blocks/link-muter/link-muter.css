@@ -1,0 +1,7 @@
+.link-muter {
+  transition: opacity ease-in-out .3s;
+}
+
+.link-muter:hover {
+  opacity: .8;
+}

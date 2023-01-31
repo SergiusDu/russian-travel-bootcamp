@@ -1,0 +1,11 @@
+.intro__summary {
+  list-style: none;
+  padding: 0;
+  margin: 34px 0 0 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}

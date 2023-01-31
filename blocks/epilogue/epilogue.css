@@ -1,0 +1,27 @@
+.epilogue {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  justify-content: center;
+  width: 100%;
+  margin: 66px 0 0;
+  aspect-ratio: 320 / 200;
+  background-image: url(../../images/epilogue__background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .epilogue {
+    margin: 90px 0 0;
+    row-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .epilogue {
+    margin: 92px 0 0;
+  }
+}

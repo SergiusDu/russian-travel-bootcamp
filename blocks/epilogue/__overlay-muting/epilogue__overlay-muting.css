@@ -1,0 +1,7 @@
+.epilogue__overlay-muting {
+  transition: background-color ease-in-out .2s;
+}
+
+.epilogue__overlay-muting:hover {
+  background-color: rgba(42, 44, 47, .8);
+}

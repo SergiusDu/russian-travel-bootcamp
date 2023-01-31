@@ -1,0 +1,9 @@
+.header__map-image {
+  min-width: 95%;
+  margin: 9% 0 0 0;
+  aspect-ratio: 304 / 85;
+  background-image: url(../../../images/header__map.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

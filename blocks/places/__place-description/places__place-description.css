@@ -1,0 +1,24 @@
+.places__place-description {
+  margin: 0;
+  width: 90%;
+  justify-self: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .places__place-description {
+    width: 100%;
+    min-width: 352px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__place-description {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,15 @@
+.places__place-url-and-caption-bundle {
+  width: 90%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+@media screen and (min-width: 768px){
+  .places__place-url-and-caption-bundle {
+    width: 100%;
+    grid-area: places__url-and-description-bundle;
+  }
+
+}

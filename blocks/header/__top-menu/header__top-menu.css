@@ -1,0 +1,26 @@
+.header__top-menu {
+
+  height: 42px;
+  width: 90%;
+  display: flex;
+  margin: 16px 0 0 0;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .header__top-menu {
+    width: 93.75%;
+    min-height: 52px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__top-menu {
+    width: 90.625%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header__top-menu {
+    width: 92.5%;
+  }
+}

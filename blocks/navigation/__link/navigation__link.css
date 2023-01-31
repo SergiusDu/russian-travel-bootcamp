@@ -1,0 +1,22 @@
+.navigation__link {
+  min-width: 90%;
+  justify-self: center;
+  text-decoration: none;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.navigation__link:visited{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

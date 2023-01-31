@@ -1,0 +1,64 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+/*Importing PAGES*/
+@import url(../blocks/page/page.css);
+
+/*Importing HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-link/header__logo-link.css);
+@import url(../blocks/header/__top-menu/header__top-menu.css);
+@import url(../blocks/header/__language-link/header__language-link.css);
+@import url(../blocks/header/__language-link_active/header__language-link_active.css);
+@import url(../blocks/header/__language-links/header__language-links.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__images-composition/header__images-composition.css);
+@import url(../blocks/header/__map-image/header__map-image.css);
+@import url(../blocks/header/__image-caption/header__image-caption.css);
+@import url(../blocks/header/__limiting-container/header__limiting-container.css);
+
+/*Importing INTRO*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__summary/intro__summary.css);
+
+/*Importing Gallery*/
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+/*Importing Places*/
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/places/__place-title/places__place-title.css);
+@import url(../blocks/places/__place-url-caption/places__place-url-caption.css);
+@import url(../blocks/places/__place-url/places__place-url.css);
+@import url(../blocks/places/__place-image/places__place-image.css);
+@import url(../blocks/places/__place-description/places__place-description.css);
+@import url(../blocks/places/__place-url-and-caption-bundle/places__place-url-and-caption-bundle.css);
+
+/*Importing Epilogue*/
+@import url(../blocks/epilogue/epilogue.css);
+@import url(../blocks/epilogue/__overlay/epilogue__overlay.css);
+@import url(../blocks/epilogue/__subtitle/epilogue__subtitle.css);
+@import url(../blocks/epilogue/__title/epilogue__title.css);
+@import url(../blocks/epilogue/__overlay-muting/epilogue__overlay-muting.css);
+
+/*Importing Navigation*/
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__links/navigation__links.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+
+/*Importing Copyright*/
+@import url(../blocks/copyright/copyright.css);
+
+/*Importing Footer*/
+@import url(../blocks/footer/footer.css);
+
+/*Importing Main-Content*/
+@import url(../blocks/main-content/main-content.css);
+
+/*Importing Link-Muter*/
+@import url(../blocks/link-muter/link-muter.css);

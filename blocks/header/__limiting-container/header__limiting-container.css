@@ -1,0 +1,15 @@
+.header__limiting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  max-width: 928px;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .header__limiting-container {
+    max-width: 984px;
+  }
+}

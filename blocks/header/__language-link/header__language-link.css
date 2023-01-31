@@ -1,0 +1,15 @@
+.header__language-link {
+  max-width: 22px; /* Without this value I can't make it pixel perfect */
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+.header__language-link:visited {
+  text-decoration: none;
+}
