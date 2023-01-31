@@ -12,12 +12,24 @@
 
 @font-face {
   src:
-    local('Inter Semibold'),
-    url(inter/Inter-SemiBold.ttf) format('truetype'),
-    url(inter/Inter-SemiBold.woff2) format('woff2'),
-    url(inter/Inter-SemiBold.woff) format('woff'),
-    url(inter/Inter-SemiBold.svg) format('svg'),
-    url(inter/Inter-SemiBold.eot) format('embedded-opentype');
+    local('Inter Bold'),
+    url(inter/Inter-Bold.ttf) format('truetype'),
+    url(inter/Inter-Black.woff2) format('woff2'),
+    url(inter/Inter-Black.woff) format('woff'),
+    url(inter/Inter-Black.svg) format('svg'),
+    url(inter/Inter-Black.eot) format('embedded-opentype');
   font-family: 'Inter';
-  font-weight: 600;
+  font-weight: 700;
+}
+
+@font-face {
+  src:
+    local('Inter Black'),
+    url(inter/Inter-Black.ttf) format('truetype'),
+    url(inter/Inter-Black.woff2) format('woff2'),
+    url(inter/Inter-Black.woff) format('woff'),
+    url(inter/Inter-Black.svg) format('svg'),
+    url(inter/Inter-Black.eot) format('embedded-opentype');
+  font-family: 'Inter';
+  font-weight: 900;
 }
