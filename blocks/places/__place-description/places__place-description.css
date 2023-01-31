@@ -1,6 +1,7 @@
 .places__place-description {
   margin: 0;
   width: 90%;
+  white-space: pre-line;
   justify-self: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;

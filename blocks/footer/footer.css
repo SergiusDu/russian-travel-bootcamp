@@ -9,7 +9,7 @@
 @media screen and (min-width: 768px) {
   .footer {
     margin: 88px 0 24px;
-    max-width: Calc(100% - 24px * 2);
+    max-width: calc(100% - 24px * 2);
     align-self: center;
     flex-direction: row;
   }

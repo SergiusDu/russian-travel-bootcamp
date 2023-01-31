@@ -12,6 +12,7 @@
 
 @media screen and (min-width: 768px){
   .places__place-title {
+    width: auto;
     grid-area: places__place-title;
     align-self: self-start;
     justify-self: self-start;
