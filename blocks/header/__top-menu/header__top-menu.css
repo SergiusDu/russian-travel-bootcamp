@@ -1,6 +1,4 @@
 .header__top-menu {
-
-  height: 42px;
   width: 90%;
   display: flex;
   margin: 16px 0 0 0;
@@ -11,7 +9,6 @@
 @media screen and (min-width: 768px) {
   .header__top-menu {
     width: 93.75%;
-    min-height: 52px;
   }
 }
 @media screen and (min-width: 1024px) {

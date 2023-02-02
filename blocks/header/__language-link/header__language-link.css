@@ -1,5 +1,4 @@
 .header__language-link {
-  max-width: 22px; /* Without this value I can't make it pixel perfect */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;

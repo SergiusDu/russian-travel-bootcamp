@@ -1,20 +1,12 @@
 .intro {
-  margin: 64px 0 0 0;
-  max-width: 90%;
-  align-self: center;
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
-@media screen and (min-width: 768px) {
-  .intro {
-    margin: 88px 0 0 0;
-  }
-}
 
 @media screen and (min-width: 1024px) {
   .intro {
-    margin: 92px 0 0 0;
     width: 928px;
   }
 }

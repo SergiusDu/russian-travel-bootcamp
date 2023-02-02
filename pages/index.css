@@ -4,30 +4,33 @@
 /*Importing PAGES*/
 @import url(../blocks/page/page.css);
 
+
 /*Importing HEADER*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header/__top-menu/header__top-menu.css);
 @import url(../blocks/header/__language-link/header__language-link.css);
-@import url(../blocks/header/__language-link_active/header__language-link_active.css);
+@import url(../blocks/header/__language-link/_active/header__language-link_active.css);
 @import url(../blocks/header/__language-links/header__language-links.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__images-composition/header__images-composition.css);
 @import url(../blocks/header/__map-image/header__map-image.css);
 @import url(../blocks/header/__image-caption/header__image-caption.css);
-@import url(../blocks/header/__limiting-container/header__limiting-container.css);
+@import url(../blocks/header/__background-image/header__background-image.css);
 
 /*Importing INTRO*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__summary/intro__summary.css);
+@import url(../blocks/intro/__article/intro__article.css);
 @import url(../blocks/intro/__summary-number/intro__summary-number.css);
 
 /*Importing Gallery*/
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 /*Importing Places*/
@@ -38,7 +41,9 @@
 @import url(../blocks/places/__place-url/places__place-url.css);
 @import url(../blocks/places/__place-image/places__place-image.css);
 @import url(../blocks/places/__place-description/places__place-description.css);
+@import url(../blocks/places/__place-paragraph/places__place-paragraph.css);
 @import url(../blocks/places/__place-url-and-caption-bundle/places__place-url-and-caption-bundle.css);
+@import url(../blocks/places/__list/places__list.css);
 
 /*Importing Epilogue*/
 @import url(../blocks/epilogue/epilogue.css);
