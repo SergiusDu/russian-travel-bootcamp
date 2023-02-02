@@ -1,5 +1,4 @@
 .header__language-link {
-  max-width: 22px; /* Without this value I can't make it pixel perfect */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -12,4 +11,11 @@
 
 .header__language-link:visited {
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header__language-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
