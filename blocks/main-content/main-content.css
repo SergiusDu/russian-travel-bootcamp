@@ -1,4 +1,5 @@
 .main-content {
+  margin: 48px 0 0;
   display: flex;
   flex-direction: column;
   row-gap: 64px;
@@ -13,5 +14,11 @@
 @media screen and (min-width: 1024px) {
   .main-content {
     row-gap: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-content {
+    margin: 56px 0 0;
   }
 }

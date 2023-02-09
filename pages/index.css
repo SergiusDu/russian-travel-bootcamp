@@ -3,9 +3,6 @@
 
 /*Importing PAGES*/
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__scetions/page__sections.css);
-
-
 
 /*Importing HEADER*/
 @import url(../blocks/header/header.css);
@@ -15,12 +12,15 @@
 @import url(../blocks/header/__language-link/header__language-link.css);
 @import url(../blocks/header/__language-link/_active/header__language-link_active.css);
 @import url(../blocks/header/__language-links/header__language-links.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__images-composition/header__images-composition.css);
-@import url(../blocks/header/__map-image/header__map-image.css);
-@import url(../blocks/header/__image-caption/header__image-caption.css);
-@import url(../blocks/header/__background-image/header__background-image.css);
+
+/*Importing LEAD*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__images-composition/lead__images-composition.css);
+@import url(../blocks/lead/__map-image/lead__map-image.css);
+@import url(../blocks/lead/__image-caption/lead__image-caption.css);
+@import url(../blocks/lead/__background-image/lead__background-image.css);
 
 /*Importing INTRO*/
 @import url(../blocks/intro/intro.css);

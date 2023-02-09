@@ -1,5 +1,5 @@
 .footer {
-  margin: 0 0 24px;
+  margin: 64px 0 24px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
+    margin: 88px 0 24px;
     width: calc(720 / 768 * 100%);
     max-width: calc(720 / 768 * 100%);
     align-self: center;
@@ -17,6 +18,7 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
+    margin: 92px 0 24px;
     width: calc(928 / 1024 * 100%);
     max-width: calc(928 / 1024 * 100%);
   }
